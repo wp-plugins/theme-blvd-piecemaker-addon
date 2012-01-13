@@ -1,9 +1,0 @@
-/* Theme Blvd Piecemaker Addon Styles */
-.themeblvd-piecemaker-fallback { display: none; }
-.themeblvd-piecemaker-fallback ul { list-style:none;margin:0;padding:0; }
-.themeblvd-piecemaker-fallback li { margin:0;padding:0; }
-@media (max-width: 800px) {	
-	.themeblvd-piecemaker { display:none; }
-	.themeblvd-piecemaker-fallback { display: block; }
-	
-}
