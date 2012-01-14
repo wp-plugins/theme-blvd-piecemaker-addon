@@ -5,7 +5,7 @@ Requires at least: 3.2
 Tested up to: 3.2
 Stable tag: 1.0.0
 
-This plugin will add the Piecemaker 3D flash slider to the Slider Manager's built-in slider types when using a WordPress theme with the Theme Blvd framework version 2.0.4+.
+Add Piecemaker 3D flash to Slider mMnager when using a theme with Theme Blvd framework version 2.0.4+.
 
 == Description ==
 
