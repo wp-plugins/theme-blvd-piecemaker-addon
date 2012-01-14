@@ -2,7 +2,7 @@
 /*
 Plugin Name: Piecemaker for Theme Blvd Themes
 Description: This plugin adds the Piecemaker 3D Flash slider to the slider types included with the Theme Blvd theme framework. Note that your theme must be running Theme Blvd framework version 2.0.4+ for this plugin to work properly.
-Version: 0.2
+Version: 1.0.1
 Author: Jason Bobich
 Author URI: http://jasonbobich.com
 License: GPL2
@@ -191,7 +191,7 @@ $settings
 </Piecemaker>
 XML;
 	
-	$xml_file = dirname(__FILE__).'/xml/'.$slider_name.'.xml';
+	$xml_file = dirname(__FILE__).'/cache/'.$slider_name.'.xml';
 	$config_file = @fopen($xml_file, 'w+');
     fwrite( $config_file, $xml );
 }
@@ -209,7 +209,7 @@ function themeblvd_piecemaker_sider_display( $slider, $settings, $slides ) {
 	<script>
       var flashvars = {};
       flashvars.cssSource = "<?php echo plugins_url( 'assets/piecemaker.css' , __FILE__ ); ?>";
-      flashvars.xmlSource = "<?php echo plugins_url( 'xml/'.$slider.'.xml', __FILE__ ); ?>";
+      flashvars.xmlSource = "<?php echo plugins_url( 'cache/'.$slider.'.xml', __FILE__ ); ?>";
       var params = {};
 	  params.play = "true";
 	  params.menu = "false";
