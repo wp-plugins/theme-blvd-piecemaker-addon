@@ -2,7 +2,7 @@
 Contributors: themeblvd
 Tags: piecemaker, themeblvd, slider
 Requires at least: 3.2
-Tested up to: 3.2
+Tested up to: 3.3.1
 Stable tag: 1.0.0
 
 Add Piecemaker to slider manager when using a theme with Theme Blvd framework version 2.0.4+.
