@@ -41,6 +41,11 @@ After installing this plugin, you **must** give the "xml" directory within the p
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Make sure the `xml` folder within the plugin folder has been given writeable permissions (755 or 777 depending on your server).
 
+== Screenshots ==
+
+1. When you add a new slider, you can see that now there is an option to select the Piecemaker slider type.
+2. For those that are not familiar with the Piecemaker slider, here is a generic example of what you can expect.
+
 == Changelog ==
 
 = 1.0 =
